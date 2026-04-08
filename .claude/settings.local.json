@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Mujtaba Hasan/Downloads/Auto Project Garage - 2026-04-08//**)",
+      "Bash(mv \"44.png\" \"brand-tesla.png\")",
+      "Bash(mv \"6.png\" \"brand-dodge.png\")",
+      "Bash(mv \"8.png\" \"brand-jeep.png\")",
+      "Bash(mv \"12.png\" \"brand-cadillac.png\")",
+      "Bash(cp brand-*.png \"/c/Users/Mujtaba Hasan/Downloads/AutoProjectGarage/assets/brands/\")",
+      "Bash(cp service-*.* \"/c/Users/Mujtaba Hasan/Downloads/AutoProjectGarage/assets/services/\")",
+      "Bash(cp garage-*.jpg \"/c/Users/Mujtaba Hasan/Downloads/AutoProjectGarage/assets/garage/\")",
+      "Bash(cp logo.webp \"/c/Users/Mujtaba Hasan/Downloads/AutoProjectGarage/assets/\")",
+      "Bash(cp:*)",
+      "Bash(python -m http.server 8080)",
+      "Bash(python3 -m http.server 8080)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/)",
+      "Bash(pkill -f \"python3 -m http.server 8080\")",
+      "Bash(pkill -f \"http.server 8080\")",
+      "Bash(curl -s http://localhost:8080/)",
+      "Bash(pkill -f \"http.server\")",
+      "Bash(python3 -m http.server 9000)",
+      "Bash(curl -s http://localhost:9000/)",
+      "Bash(python3 -m http.server 9090)",
+      "Bash(curl -s http://localhost:9090/)",
+      "Bash(where ffmpeg:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(curl:*)",
+      "Bash(cp \"/c/Users/Mujtaba Hasan/Downloads/AutoProjectGarage-v3/assets/services/\"*.jpg \"/c/Users/Mujtaba Hasan/Downloads/AutoProjectGarage-v1-GarageReveal/assets/services/\")",
+      "Bash(cp \"/c/Users/Mujtaba Hasan/Downloads/AutoProjectGarage-v3/assets/services/\"*.jpg \"/c/Users/Mujtaba Hasan/Downloads/AutoProjectGarage-v2-ExplodedCar-SAVED/assets/services/\")",
+      "Bash(pkill -f \"python3\")"
+    ]
+  }
+}
